@@ -6,13 +6,21 @@
     <title>Noticias</title>
     <link rel="stylesheet" type="text/css" href="../static/style.css">
 </head>
+<script type="text/javascript">
+    function changeTheme() {
+        var e = document.getElementById("thema");
+        var strUser = e.options[e.selectedIndex].text;
+        if (strUser == "Donker thema") {
+            document.body.style.backgroundImage = 'url(img/binding_dark.png)';
+        }
+        if (strUser == "Licht thema") {
+            document.body.style.backgroundImage = 'url(img/binding_light.png)';
+        }
+    }
+</script>
+
 
 <body>
-    <header>
-        <li></li>
-        <li></li>
-        <li></li>
-    </header>
     <center>
         <h1>NOTICIAS</h1>
         <h3>Noticias sobre defensa</h3>
@@ -25,6 +33,10 @@
             </form>
         </div>
     </aside>
+    <select name="thema" id="thema" onchange="changeTheme();">
+    <option value="dark">Donker thema</option>
+    <option value="light">Licht thema</option>
+    </select>
     <footer>
         <center>Sergio Chávez - 2017</center>
     </footer>
