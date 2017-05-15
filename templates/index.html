@@ -10,8 +10,8 @@
     function changeTheme() {
         var e = document.getElementById("thema");
         var strUser = e.options[e.selectedIndex].text;
-        if (strUser == "Donker thema") {
-            document.body.style.backgroundImage = 'url(img/binding_dark.png)';
+        if (strUser == "NATO") {
+            document.body.style.backgroundImage = "url('images/james_kerry.jpg'')";
         }
         if (strUser == "Licht thema") {
             document.body.style.backgroundImage = 'url(img/binding_light.png)';
@@ -34,8 +34,9 @@
         </div>
     </aside>
     <select name="thema" id="thema" onchange="changeTheme();">
-    <option value="dark">Donker thema</option>
-    <option value="light">Licht thema</option>
+    <option value="dark">NATO</option>
+    <option value="light">CSAT</option>
+    <option value="dank">AAF</option>
     </select>
     <footer>
         <center>Sergio Chávez - 2017</center>
