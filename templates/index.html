@@ -7,23 +7,19 @@
     <link rel="stylesheet" type="text/css" href="../static/style.css">
 </head>
 <script type="text/javascript">
-    function changeTheme() {
-        var e = document.getElementById("thema");
-        var strUser = e.options[e.selectedIndex].text;
-        if (strUser == "NATO") {
-            document.body.style.backgroundImage = "url('images/james_kerry.jpg'')";
-        }
-        if (strUser == "Licht thema") {
-            document.body.style.backgroundImage = 'url(img/binding_light.png)';
-        }
-    }
+    $(document).ready(function() {
+        //Todo el código jQuery va aquí
+        $("#NATO").click(function() {
+            this.ch
+        });
+    });
 </script>
 
 
 <body>
     <center>
-        <h1>NOTICIAS</h1>
-        <h3>Noticias sobre defensa</h3>
+        <h1>ArmA Blog</h1>
+        <h3>Noticias sobre la saga Armed Assault</h3>
     </center>
     <aside>
         <div id="caja">
@@ -33,10 +29,9 @@
             </form>
         </div>
     </aside>
-    <select name="thema" id="thema" onchange="changeTheme();">
-    <option value="dark">NATO</option>
-    <option value="light">CSAT</option>
-    <option value="dank">AAF</option>
+    <input type="button" value="NATO" id="NATO">
+    <input type="button" value="CSAT">
+    <input type="button" value="AAF">
     </select>
     <footer>
         <center>Sergio Chávez - 2017</center>
