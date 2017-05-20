@@ -1,0 +1,20 @@
+import vehiculos_clases as vc
+
+my_vehicleCSAT_SPAAG = vc.Vehiculo("ZSU-39 'Tigris'", "CSAT", "Antiaéreo")
+my_vehicleCSAT_SPG = vc.Vehiculo("2S9 'Sochor'", "CSAT", "Artillería")
+my_vehicleCSAT_FighterAT = vc.Vehiculo("To-199 'Neophron'", "CSAT", "Ataque")
+my_vehicleCSAT_Fighter = vc.Vehiculo("To-201 'Shikra'", "CSAT", "Polivalente")
+my_vehicleCSAT_CarMR = vc.Vehiculo("Ifrit", "CSAT", "MRAP")
+my_vehicleCSAT_CarLSV = vc.Vehiculo("Qilin LSV", "CSAT (Pacífico)", "Vehículo ligero")
+my_vehicleCSAT_CarTR = vc.Vehiculo("Tempest", "CSAT", "Camión")
+my_vehicleCSAT_CarTRL = vc.Vehiculo("Zamak", "CSAT/AAF", "Camión")
+my_vehicleCSAT_DronesR = vc.Vehiculo("K40 Abalil-3", "CSAT/AAF", "Dron de ataque")
+my_vehicleCSAT_DronesRP = vc.Vehiculo("KH-3A 'Fenghuang'", "CSAT (Pacífico)", "Dron de ataque")
+my_vehicleCSAT_DronesQ = vc.Vehiculo("Tayran AR-2", "CSAT", "Dron")
+my_vehicleCSAT_HeloTH = vc.Vehiculo("Mi-290 'Taru'", "CSAT", "Helicóptero de transporte")
+my_vehicleCSAT_HeloAT = vc.Vehiculo("Mi-48 'Kajman'", "CSAT", "Helicóptero de ataque")
+my_vehicleCSAT_HeloT = vc.Vehiculo("PO-30 'Orca'", "CSAT", "Helicóptero de transporte")
+my_vehicleCSAT_MBT = vc.Vehiculo("T-100 'Varsuk'", "CSAT", "Carro de combate")
+my_vehicleCSAT_VCI = vc.Vehiculo("BTR-K 'Kamysh'", "CSAT", "Vehículo de combate de infantería")
+my_vehicleCSAT_APC = vc.Vehiculo("MSE-3 'Marid'", "CSAT", "Vehículo de transporte de personal")
+
