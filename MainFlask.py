@@ -1,6 +1,6 @@
 from flask import Flask
 from flask import render_template
-import vehiculos_AAF as vaaf
+import vehiculos_objetos as vobj
 #from app import app
 #from .forms import LoginForm
 app = Flask(__name__)
@@ -13,8 +13,14 @@ def pag_principal():
 
 @app.route("/vehiculos")
 def vehiculos():
-    vehiculo = vaaf.my_vehicleAAF_Fighter
-    return str(vehiculo)
+    vehiculos = vobj.vehiculos_for()
+    return str(vehiculos)
+    #for i in vobj.vehicles:
+        #return str(i)
+
+        #print (i)
+    #vehiculo = vobj.my_vehicleAAF_Fighter
+    #return str(vehiculo)
 """
 @app.route("/logged_in")    
 def logged_in():
