@@ -18,6 +18,29 @@ my_vehicleCSAT_MBT = vc.Vehiculo("T-100 'Varsuk'", "CSAT", "Carro de combate")
 my_vehicleCSAT_VCI = vc.Vehiculo("BTR-K 'Kamysh'", "CSAT", "Vehículo de combate de infantería")
 my_vehicleCSAT_APC = vc.Vehiculo("MSE-3 'Marid'", "CSAT", "Vehículo de transporte de personal")
 
+csat_vehicles = [my_vehicleCSAT_SPAAG, 
+                my_vehicleCSAT_SPG, 
+                my_vehicleCSAT_FighterAT, 
+                my_vehicleCSAT_Fighter, 
+                my_vehicleCSAT_CarMR, 
+                my_vehicleCSAT_CarLSV, 
+                my_vehicleCSAT_CarTR, 
+                my_vehicleCSAT_CarTRL, 
+                my_vehicleCSAT_DronesR,
+                my_vehicleCSAT_DronesRP,
+                my_vehicleCSAT_DronesQ,
+                my_vehicleCSAT_HeloTH,
+                my_vehicleCSAT_HeloAT,
+                my_vehicleCSAT_HeloT,
+                my_vehicleCSAT_MBT,
+                my_vehicleCSAT_VCI,
+                my_vehicleCSAT_APC]
+
+csat = csat_vehicles[6]
+
+print = csat
+
+"""
 print(my_vehicleCSAT_SPAAG)
 print(my_vehicleCSAT_SPG)
 print(my_vehicleCSAT_FighterAT)
@@ -35,3 +58,4 @@ print(my_vehicleCSAT_HeloT)
 print(my_vehicleCSAT_MBT)
 print(my_vehicleCSAT_VCI)
 print(my_vehicleCSAT_APC)
+"""

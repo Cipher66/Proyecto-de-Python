@@ -1,5 +1,6 @@
 from flask import Flask
 from flask import render_template
+import vehiculos_AAF as vaaf
 #from app import app
 #from .forms import LoginForm
 app = Flask(__name__)
@@ -9,6 +10,11 @@ app.debug=True
 @app.route("/")
 def pag_principal():
     return render_template("index.html")
+
+@app.route("/vehiculos")
+def vehiculos():
+    vehiculo = vaaf.my_vehicleAAF_Fighter
+    return str(vehiculo)
 """
 @app.route("/logged_in")    
 def logged_in():
