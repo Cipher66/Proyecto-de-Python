@@ -35,8 +35,12 @@ vehicles = [my_vehicle_SPAAG,
 
 def vehiculos_for():
     for i in vehicles:
-        return i
+        print(i)
+    return vehicles
+    #for i in vehicles:
+        #return i
 
+print(vehiculos_for())
 
 #vehiculo = vehicles[2]
 #print(vehiculo)
