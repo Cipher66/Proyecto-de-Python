@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<center>VEHICULOS</center>
+{% for i in vehicles %}
+   {% for i2 in i.items() %}
+      <h1>Key: {{i2}}</h1>
+   {% endfor %}
+{% endfor %}
+</body>
+</html>

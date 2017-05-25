@@ -12,6 +12,9 @@ def pag_principal():
     return render_template("index.html")
 
 @app.route("/vehiculos")
+def pag_vehiculos():
+    return render_template("vehiculos.html", vc=vobj.vehicles)
+
 def vehiculos():
     vehiculos = vobj.vehiculos_for()
     return str(vehiculos)
