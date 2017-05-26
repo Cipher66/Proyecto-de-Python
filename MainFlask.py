@@ -13,9 +13,11 @@ def pag_principal():
 
 @app.route("/vehiculos")
 def pag_vehiculos():
-    return render_template("vehiculos.html", vc=vobj.vehicles)
+    arm = "hola"
+    lsv = vobj.vehicles 
+    return render_template("vehiculos.html", vc = arm, lv = lsv)
 
-def vehiculos():
+"""def vehiculos():
     vehiculos = vobj.vehiculos_for()
     return str(vehiculos)
     #for i in vobj.vehicles:
@@ -23,7 +25,7 @@ def vehiculos():
 
         #print (i)
     #vehiculo = vobj.my_vehicleAAF_Fighter
-    #return str(vehiculo)
+    #return str(vehiculo)"""
 """
 @app.route("/logged_in")    
 def logged_in():

@@ -36,7 +36,8 @@ vehicles = [my_vehicle_SPAAG,
 def vehiculos_for():
     for i in vehicles:
         print(i)
-    return str(i)
+    return (i)
+    #return str(i)
     #for i in vehicles:
         #return i
 
